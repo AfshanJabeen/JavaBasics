@@ -1,0 +1,12 @@
+Collections class provides static methods for sorting the elements of collections. 
+If collection elements are of Set or Map, we can use TreeSet or TreeMap. 
+However, we cannot sort the elements of List. Collections class provides methods for sorting the elements of List type elements.
+
+public void sort(List list): It is used to sort the elements of List. List elements must be of the Comparable type.
+
+Note: String class and Wrapper classes implement the Comparable interface by default.
+ So if you store the objects of string or wrapper classes in a list, set or map, it will be Comparable by default.
+ 
+ TreeMap sort elements by Key, to sort by value we use the comparator interface
+ 
+ 
