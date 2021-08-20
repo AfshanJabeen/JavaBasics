@@ -1,0 +1,15 @@
+Collection Interface -> List Interface -> 1. ArrayList Class 2. LinkedList Class
+Collection c= new ArrayList(); //accepts object -> object is a base class for all the classes in java
+c.add(1)
+c.add("Afshan")
+
+Similarly for List
+List l = new ArrayList();
+l.add(1);
+l.add("Afshan")
+
+Java is type safe language -> for any variable to be used, first the variable type should be declared
+but in above 2 codes, type safety is not achieved and it can achieved using generics (e.g. <Integer>)
+Generics works only with classes (Integer is a class, it works but not for int)
+
+
